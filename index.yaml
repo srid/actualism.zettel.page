@@ -4,5 +4,5 @@ page:
 
 template:
   name: /templates/layouts/note
-  theme: rose
+  theme: orange
   urlStrategy: pretty

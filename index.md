@@ -1,1 +1,5 @@
 # Actualism Index
+
+```query
+path:./*
+```
