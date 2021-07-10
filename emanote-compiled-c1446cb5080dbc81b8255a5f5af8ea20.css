@@ -76,15 +76,15 @@ svg {
   display: block;
   vertical-align: middle;
 }
-strong {
-  font-weight: bolder;
-}
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
   top: -0.5em;
+}
+strong {
+  font-weight: bolder;
 }
 ul {
   list-style: none;
