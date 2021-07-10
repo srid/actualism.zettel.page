@@ -1,9 +1,8 @@
 page:
-  siteTitle: Emanote Template
-  siteName: emanote-template
+  siteTitle: Actualism Index
+  siteName: actualism-index
 
 template:
-  theme: red
-  sidebar:
-    collapsed: false
+  name: /templates/layouts/note
+  theme: rose
   urlStrategy: pretty
