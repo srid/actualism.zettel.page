@@ -69,9 +69,15 @@ h1 {
 h1, p {
   margin: 0;
 }
+h1, p, blockquote {
+  margin: 0;
+}
 svg {
   display: block;
   vertical-align: middle;
+}
+strong {
+  font-weight: bolder;
 }
 ul {
   list-style: none;
@@ -111,6 +117,11 @@ ul {
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -141,8 +152,34 @@ ul {
   --tw-bg-opacity: 1;
   background-color: rgba(255, 228, 230, var(--tw-bg-opacity));
 }
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+.hover\:bg-rose-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 241, 242, var(--tw-bg-opacity));
+}
+.hover\:bg-gray-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+}
+.bg-yellow-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(253, 230, 138, var(--tw-bg-opacity));
+}
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgba(156, 163, 175, var(--tw-border-opacity));
+}
 .rounded {
   border-radius: 0.25rem;
+}
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+.border-l-4 {
+  border-left-width: 4px;
 }
 .inline {
   display: inline;
@@ -209,6 +246,9 @@ ul {
 .font-extrabold {
   font-weight: 800;
 }
+.font-semibold {
+  font-weight: 600;
+}
 .h-4 {
   height: 1rem;
 }
@@ -230,6 +270,10 @@ ul {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 .mx-auto {
   margin-left: auto;
@@ -262,6 +306,9 @@ ul {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mt-8 {
+  margin-top: 2rem;
+}
 .mb-3 {
   margin-bottom: 0.75rem;
 }
@@ -276,6 +323,9 @@ ul {
 }
 .p-3 {
   padding: 0.75rem;
+}
+.p-4 {
+  padding: 1rem;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -296,6 +346,10 @@ ul {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
 .pb-2 {
   padding-bottom: 0.5rem;
@@ -328,9 +382,17 @@ ul {
   --tw-text-opacity: 1;
   color: rgba(156, 163, 175, var(--tw-text-opacity));
 }
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
 .text-rose-600 {
   --tw-text-opacity: 1;
   color: rgba(225, 29, 72, var(--tw-text-opacity));
+}
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity));
 }
 .truncate {
   overflow: hidden;
