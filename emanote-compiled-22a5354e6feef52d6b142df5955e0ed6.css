@@ -405,6 +405,10 @@ ul {
   --tw-text-opacity: 1;
   color: rgba(31, 41, 55, var(--tw-text-opacity));
 }
+.hover\:text-orange-700:hover {
+  --tw-text-opacity: 1;
+  color: rgba(194, 65, 12, var(--tw-text-opacity));
+}
 .text-black {
   --tw-text-opacity: 1;
   color: rgba(0, 0, 0, var(--tw-text-opacity));
