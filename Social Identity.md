@@ -1,5 +1,5 @@
 ---
-slug: social-identity
+slug: identity/social
 ---
 
 [Topic: Social Identity](http://www.actualfreedom.com.au/library/topics/socialidentity.htm),

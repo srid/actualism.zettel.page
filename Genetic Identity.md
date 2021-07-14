@@ -1,5 +1,5 @@
 ---
-slug: being
+slug: identity/genetic
 ---
 
 [Ref](http://www.actualfreedom.com.au/sundry/frequentquestions/FAQ30a.htm),

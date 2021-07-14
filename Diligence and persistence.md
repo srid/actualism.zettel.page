@@ -1,4 +1,4 @@
 ---
-slug: diligence-persistence
+slug: diligence
 ---
 

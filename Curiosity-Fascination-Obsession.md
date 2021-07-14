@@ -1,5 +1,5 @@
 ---
-slug: curiosity-fascination-obsession
+slug: fascination
 ---
 
 # Curiosity :arrow_right: Fascination ➡️ Obsession
